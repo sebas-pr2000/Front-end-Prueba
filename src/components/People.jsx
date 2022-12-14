@@ -3,7 +3,7 @@ import { Box, styled, Typography, Stack } from "@mui/material";
 import TwitterIcon from "@mui/icons-material/Twitter";
 
 
-const People = ({ id, img, name, position, twitter }) => {
+const People = ({ img, name, position, twitter }) => {
     const PeopleBox = styled(Box)(({ theme }) => ({
         width: "340px",
         backgroundColor: "#fff",
@@ -11,12 +11,6 @@ const People = ({ id, img, name, position, twitter }) => {
         [theme.breakpoints.down("md")]: {
             margin: theme.spacing(2, 0, 2, 0),
         }
-    }));
-
-    const InfoBox = styled(Box)(() => ({
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center"
     }));
 
     const ImgContainer = styled(Box)(() => ({
@@ -37,7 +31,7 @@ const People = ({ id, img, name, position, twitter }) => {
             }}>
                 {name}
             </Typography>
-            <Typography variant="body2" sx={{ my: 2, borderBottom: "1px solid #5A6473", pb: "8px" }}>
+            <Typography variant="body2" sx={{ my: 2, borderBottom: "1px solid #7D8589", pb: "8px" }}>
                 {position}
             </Typography>
 
@@ -49,34 +43,6 @@ const People = ({ id, img, name, position, twitter }) => {
                 />
                 <Typography>@{twitter}</Typography>
             </Stack>
-
-            {/* <Box sx={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between"
-            }}>
-                <InfoBox>
-                    <img src={bedroomsIcon} alt="bedroomsIcom" />
-                    <Typography variant="body2" sx={{ mt: 1 }}>
-                        {bedrooms}
-                    </Typography>
-                </InfoBox>
-
-                <InfoBox>
-                    <img src={bathroomsIcon} alt="bathroomsIcon" />
-                    <Typography variant="body2" sx={{ mt: 1 }}>
-                        {bathrooms}
-                    </Typography>
-                </InfoBox>
-                <InfoBox>
-
-                    <img src={spaceIcon} alt="spaceIcon" />
-                    <Typography variant="body2" sx={{ mt: 1 }}>
-                        {space}
-                    </Typography>
-                </InfoBox>
-
-            </Box> */}
         </Box>
     </PeopleBox>;
 };
