@@ -74,7 +74,7 @@ const Navbar = () => {
 
     const NavLink = styled(Typography)(({ theme }) => ({
         fontSize: "14px",
-        color: "#7D8589",
+        color: "#fefefd",
         fontWeight: "bold",
         cursor: "pointer",
         "&:hover": {
