@@ -13,7 +13,6 @@ const Mission = () => {
     }));
     return (
         <Box sx={{
-            my: "100px",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -44,7 +43,7 @@ const Mission = () => {
                     variant="body2"
                     sx={{
                         fontSize: "16px",
-                        color: "#5A6473",
+                        color: "#7D8589",
                         textAlign: "center",
                     }}
                 >
