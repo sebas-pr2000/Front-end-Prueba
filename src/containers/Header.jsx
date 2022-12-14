@@ -3,7 +3,7 @@ import { Container } from '@mui/system'
 import React from 'react'
 import CustomButton from '../components/CustomButton'
 import Navbar from '../components/Navbar'
-import backgroundCity from "../Images/city-palace.jpg"
+import backgroundCity from "../Images/FotoJet.jpg"
 
 const Header = () => {
 
