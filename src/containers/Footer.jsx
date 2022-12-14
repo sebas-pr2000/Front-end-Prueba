@@ -36,6 +36,7 @@ const Footer = () => {
         cursor: "pointer",
         "&:hover": {
             color: "#000",
+            borderBottom: "1px solid #000",
         },
     }));
 
