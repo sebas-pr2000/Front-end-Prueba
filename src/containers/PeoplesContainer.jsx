@@ -27,7 +27,7 @@ const PeopleContainer = () => {
 
     return (
         <Box sx={{
-            mt: 5,
+            mt: 12,
             backgroundColor: "#eef2f5",
             py: 10
         }}>
@@ -63,7 +63,7 @@ const PeopleContainer = () => {
                         variant="body1"
                         sx={{
                             fontSize: "16px",
-                            color: "#5A6473",
+                            color: "#7D8589",
                             textAlign: "center",
                         }}
                     >
