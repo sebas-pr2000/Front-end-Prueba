@@ -1,21 +1,20 @@
 import React from "react";
-import Header from "./containers/Header";
-import Companies from "./containers/Companies";
-import Mission from "./containers/Mission";
-import PeopleContainer from "./containers/PeoplesContainer";
-import GetStarted from "./containers/GetStarted";
-import Footer from "./containers/Footer";
 
-const App = () => {
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Home from "./views/Home";
+import LoginPage from "./views/Login";
+import RegisterPage from "./views/Register";
+
+
+function App() {
    return (
-      <>
-         <Header />
-         <Companies />
-         <Mission />
-         <PeopleContainer />
-         <GetStarted />
-         <Footer />
-      </>
+      <BrowserRouter>
+         <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/login" component={LoginPage} />
+            <Route path="/register" component={RegisterPage} />
+         </Switch>
+      </BrowserRouter>
    )
 }
 

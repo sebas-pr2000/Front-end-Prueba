@@ -1,9 +1,8 @@
 import { Box, Container, styled, Typography } from "@mui/material";
 import React from "react";
-import logoImg from "../Images/logo.png";
+import logoImg from "../Images/logoNegro.png";
 import starsImg from "../Images/Star.png";
 import logosImg from "../Images/logos.png";
-import CustomButton from "../components/CustomButton";
 
 const Companies = () => {
     const CustomContainer = styled(Container)(({ theme }) => ({

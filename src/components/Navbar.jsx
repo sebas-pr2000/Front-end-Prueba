@@ -8,7 +8,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import ContactsIcon from "@mui/icons-material/Contacts";
 import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
-import logoImg from "../Images/logo.png";
+import logoImg from "../Images/logoBlanco.png";
 import { Container } from "@mui/system";
 import CustomButton from "./CustomButton";
 import {
@@ -21,6 +21,7 @@ import {
     styled,
 } from "@mui/material";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -72,7 +73,7 @@ const Navbar = () => {
     );
 
 
-    const NavLink = styled(Typography)(({ theme }) => ({
+    const NavLinkText = styled(Typography)(({ theme }) => ({
         fontSize: "14px",
         color: "#fefefd",
         fontWeight: "bold",
@@ -153,10 +154,10 @@ const Navbar = () => {
                 </Box>
 
                 <NavbarLinksBox>
-                    <NavLink variant="body2">FEATURES</NavLink>
-                    <NavLink variant="body2">PRICING</NavLink>
-                    <NavLink variant="body2">ABOUT</NavLink>
-                    <NavLink variant="body2">CONTACT</NavLink>
+                    <NavLinkText variant="body2">FEATURES</NavLinkText>
+                    <NavLinkText variant="body2">PRICING</NavLinkText>
+                    <NavLinkText variant="body2">ABOUT</NavLinkText>
+                    <NavLinkText variant="body2">CONTACT</NavLinkText>
                     <div style={{
                         width: "5%",
                         height: "20px",
@@ -168,12 +169,22 @@ const Navbar = () => {
                         justifyContent: "center",
                         gap: "1rem",
                     }}>
-                        <NavLink variant="body2">lOGIN</NavLink>
-                        <CustomButton
-                            backgroundColor="#ea6e9f"
-                            color="#fefefd"
-                            buttonText="SIGNUP"
-                        />
+                        <Link to='/login' style={{
+                            textDecoration: "none",
+                        }}>
+                            <NavLinkText variant="body2">
+                                lOGIN
+                            </NavLinkText>
+                        </Link>
+                        <Link to="/register" style={{
+                            textDecoration: "none",
+                        }}>
+                            <CustomButton
+                                backgroundColor="#ea6e9f"
+                                color="#fefefd"
+                                buttonText="SIGNUP"
+                            />
+                        </Link>
                     </Box>
                 </NavbarLinksBox>
             </Box>
