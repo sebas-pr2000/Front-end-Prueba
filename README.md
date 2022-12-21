@@ -1,10 +1,10 @@
-# [Landing Page Achoo](https://landing-page-react-eta.vercel.app/) | [<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Logo Linkedin" height="25" width="40" />](https://linkedin.com/in/https://www.linkedin.com/in/sebastian-prado-escobar-3451b0221/)
+# [Landing Page Achoo](https://landing-page-react-eta.vercel.app/) | [<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Logo Linkedin" height="25" width="40" />](https://www.linkedin.com/in/sebastian-prado-escobar-dev/)
 
 ![image Landing](https://i.postimg.cc/02X14FgD/React-App-Google-Chrome-21-12-2022-11-27-39-a-m.png)
 
 ## 📜 Resumen 📜
 
-Landing page creada con React y haciendo uso de Material UI para sus estilos
+Landing page Responsive creada con React y haciendo uso de Material UI para sus estilos
 
 ## 💻 Instalacion 💻
 
