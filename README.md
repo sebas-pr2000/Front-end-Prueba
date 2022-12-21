@@ -4,7 +4,7 @@
 
 ## 📜 Resumen 📜
 
-Landing page creada con React y haciendo uso de Material UI para sus estilos
+Landing page Responsive creada con React y haciendo uso de Material UI para sus estilos
 
 ## 💻 Instalacion 💻
 
